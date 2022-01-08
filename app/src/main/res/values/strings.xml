@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="article_image_head">Article Image Head</string>
+    <string name="share_article">share article</string>
+    <string name="slash">slash</string>
+    <string name="continue_reading">Continue Reading</string>
+    <string name="actions_settings">Actions Settings</string>
+    <string name="action_categories">Action Categories</string>
+
+
+
+    <!-- Categories-->
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="sport">Sport</string>
+    <string name="technology">Technology</string>
+    <string name="newsster_top">Newsster Top</string>
+
+    <!-- Languages -->
+    <string name="english">English</string>
+    <string name="polish">Polish</string>
+    <string name="german">German</string>
+    <string name="hungarian">Hungarian</string>
+    <string name="spanish">Spanish</string>
+
+
+
+    <!-- Preference Titles -->
+    <string name="mode_header">Day/night mode</string>
+    <string name="language_header">Choose language</string>
+
+    <!-- Mode Preferences -->
+    <string name="mode_title">Switch mode</string>
+
+    <!-- Menu items -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Dialog title -->
+    <string name="dialog_title">Choose category</string>
+
+    <!-- retry_button -->
+    <string name="retry">Retry</string>
+
+    <!-- Error notification -->
+    <string name="error">Something went wrong…</string>
+
+    <string name="nav_up" translatable="false">Navigate up</string>
+</resources>

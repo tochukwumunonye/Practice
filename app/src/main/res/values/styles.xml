@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NewsAppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+
+    <!-- Menu Item. Set primary color for the text, so it's dark on light bg and vice versa -->
+    <style name="NewsPopupOverlay" parent="ThemeOverlay.MaterialComponents">
+        <item name="android:textColor">@color/newsPrimaryTextColor</item>
+    </style>
+
+
+    <!-- Retry button -->
+    <style name="NewsButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/newsSecondaryLightColor</item>
+        <item name="strokeColor">@color/newsSecondaryColor</item>
+        <item name="strokeWidth">0.8dp</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
+    </style>
+
+
+
+
+
+<style name="NewsToolbar" parent="Widget.MaterialComponents.Toolbar">
+<item name="titleTextAppearance">@style/NewsToolbarTitle</item>
+<item name="elevation">4dp</item>
+</style>
+
+
+     Categories Picker Dialog
+<style name="NewsMaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+<item name="alertDialogStyle">@style/MaterialAlertDialog.App</item>
+<item name="materialAlertDialogTitleTextStyle">@style/News.Dialog.Title.Text</item>
+<item name="materialAlertDialogBodyTextStyle">@style/NewsDialogBodyText</item>
+<item name="materialAlertDialogTitlePanelStyle">@style/TitlePaneStyleCenter</item>
+<item name="checkedTextViewStyle">@style/CheckedItemStyle</item>
+<item name="materialAlertDialogTitleIconStyle">@style/TitleIconStyleCenter</item>
+</style>
+
+<style name="MaterialAlertDialog.App" parent="MaterialAlertDialog.MaterialComponents">
+<item name="shapeAppearance">@style/ShapeAppearance.App.MediumComponent</item>
+</style>
+
+<style name="ShapeAppearance.App.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+<item name="cornerFamily">rounded</item>
+<item name="cornerSize">8dp</item>
+</style>
+
+<style name="TitlePaneStyleCenter" parent="MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked">
+<item name="android:background">@color/customDialogTitlePanelColor</item>
+<item name="android:padding">16dp</item>
+</style>
+
+<style name="TitleIconStyleCenter" parent="MaterialAlertDialog.MaterialComponents.Title.Icon.CenterStacked" />
+
+<style name="CheckedItemStyle" parent="@style/Widget.MaterialComponents.CheckedTextView">
+<item name="android:foreground">?selectableItemBackground</item>
+</style>
+    Dialog End-->
+
+</resources>
+
+
+
+
+
+

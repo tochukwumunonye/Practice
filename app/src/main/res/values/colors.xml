@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Color palette for the day mode-->
+    <color name="newsPrimaryColor">#9ea9af</color>
+    <color name="newsPrimaryLightColor">#cfdbe1</color>
+    <color name="newsPrimaryDarkColor">#707a80</color>
+    <color name="newsSecondaryColor">#e91e63</color>
+    <color name="newsSecondaryLightColor">#ffa8c8</color>
+
+    <!--Components' custom colors-->
+    <color name="customCardviewSurfaceColor">#ffffff</color>
+    <color name="customDialogTitlePanelColor">#cfdbe1</color>
+
+    <!--Text colors-->
+    <color name="newsPrimaryTextColor">#000000</color>
+    <color name="newsSecondaryTextColor">#ffffff</color>
+    <color name="newsBlackTextColor">#000000</color>
+</resources>

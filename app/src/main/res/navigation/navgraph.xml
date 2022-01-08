@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="main_fragment"
+    android:id="@+id/navgraph">
+
+    <fragment
+        android:id="@+id/articleListFragment"
+        android:name="com.tochukwu.practice.ui.list.ArticleListFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/article_list_fragment">
+
+        <action
+            android:id="@+id/action_articleListFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_articleListFragment_to_articleFragment"
+            app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleFragment"
+        android:name="com.tochukwu.practice.ui.article.ArticleFragment"
+        android:label="detail_fragment"
+        tools:layout="@layout/article_fragment">
+
+
+        <argument
+            android:name="selectedArticle"
+            app:argType="com.tochukwu.practice.model.Article" />
+
+        <action
+            android:id="@+id/action_articleFragment_to_articleListFragment"
+            app:destination="@id/articleListFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.tochukwu.practice.ui.settings.SettingsFragment"
+        android:label="SettingFragment">
+
+
+        <action
+            android:id="@+id/action_settingsFragment_to_articleListFragment"
+            app:destination="@id/articleListFragment" />
+    </fragment>
+
+
+</navigation>
+
+
+

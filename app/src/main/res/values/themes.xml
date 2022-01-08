@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Practice" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/newsPrimaryColor</item>
+        <item name="colorPrimaryDark">@color/newsPrimaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/newsPrimaryLightColor</item>
+        <item name="colorAccent">@color/newsSecondaryColor</item>
+        <item name="colorOnPrimary">@color/newsPrimaryTextColor</item>
+        <!-- Secondary brand color. -->
+
+        <item name="colorSecondaryVariant">@color/newsSecondaryLightColor</item>
+        <item name="colorOnSecondary">@color/newsSecondaryTextColor</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!-- themess -->
+        <item name="fontFamily">@font/work_sans_medium</item>
+        <item name="android:fontFamily">@font/work_sans_medium</item>
+        <!--item name="toolbarStyle">@style/NewsToolBar</item -->
+        <!--item name="collapsedTitleTextAppearance">@style/NewsToolbarTitle</item -->
+    </style>
+</resources>
+
+
